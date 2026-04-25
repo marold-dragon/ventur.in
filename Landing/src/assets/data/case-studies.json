@@ -1,0 +1,270 @@
+[
+  {
+    "id": 1,
+    "slug": "harvest-organics",
+    "title": "Harvest Organics",
+    "category": "UI/UX",
+    "description": "Developed a nature-inspired brand system and packaging that strengthens shelf presence, authenticity, and consumer trust.",
+    "image": "/images/project/project-details-1.webp",
+    "live_link": "#",
+    "services": "Packaging Design + Brand System",
+    "industry": "Food & Sustainable Goods",
+    "timeline": "6 Weeks",
+    "video_embed": "",
+    "problem": "Harvest Organics wanted packaging and a brand system that communicated freshness and sustainability, but their visuals felt generic and failed to stand out on shelves or digital channels.",
+    "challenge": "The brand struggled with weak differentiation in a crowded market, inconsistent product labeling across their product line, limited storytelling around their sustainable sourcing practices, and low shelf impact that failed to attract new customers.",
+    "challenges_list": [
+      "Weak brand differentiation",
+      "Inconsistent product labeling",
+      "Limited storytelling around sourcing",
+      "Low shelf impact"
+    ],
+    "solution": "We built a nature-inspired identity using warm tones, organic patterns, and clean typography. Packaging layouts were standardized, and storytelling elements were added to highlight quality and sustainability. The new design system includes a flexible color palette, custom iconography, and clear visual hierarchy that works across all touchpoints.",
+    "gallery": [
+      "/images/project/project-details-2.webp",
+      "/images/project/project-details-3.webp"
+    ],
+    "timeline_steps": [
+      {
+        "step": 1,
+        "title": "Discovery",
+        "description": "Understanding the problem and user needs through stakeholder interviews and market research"
+      },
+      {
+        "step": 2,
+        "title": "Design",
+        "description": "Creating wireframes, mood boards, and high-fidelity designs for packaging and brand assets"
+      },
+      {
+        "step": 3,
+        "title": "Development",
+        "description": "Building brand guidelines, design system, and preparing production-ready assets"
+      },
+      {
+        "step": 4,
+        "title": "Launch",
+        "description": "Deploying new packaging to production and monitoring market response"
+      }
+    ],
+    "impact": "The refreshed brand gained stronger recognition both online and in retail environments, driving higher customer trust and improved sales performance. The cohesive brand system now communicates the company's commitment to sustainability while maintaining visual appeal.",
+    "metrics": [
+      {
+        "value": "+45%",
+        "label": "Product Visibility"
+      },
+      {
+        "value": "+32%",
+        "label": "Customer Recall"
+      },
+      {
+        "value": "+28%",
+        "label": "Sales Lift"
+      }
+    ],
+    "testimonial": "The new brand tells our story instantly. Customers connect with us more, and the packaging stands out everywhere. It's exactly what we needed to differentiate ourselves in the market.",
+    "client_name": "Emily Ross",
+    "client_role": "HR Manager",
+    "client_avatar": "/images/avatars/6.png"
+  },
+  {
+    "id": 2,
+    "slug": "summit-finance",
+    "title": "Summit Finance",
+    "category": "Web Dev",
+    "description": "Modernized the platform with streamlined dashboards, stronger trust signals, and simplified financial insight delivery.",
+    "image": "/images/project/2.webp",
+    "live_link": "#",
+    "services": "Brand Direction + Web Platform",
+    "industry": "Finance & Consulting",
+    "timeline": "8 Weeks",
+    "video_embed": "",
+    "problem": "Summit Finance's existing web platform was outdated, difficult to navigate, and failed to convey the trust and professionalism expected in the financial services industry.",
+    "challenge": "The platform suffered from complex navigation that confused users, outdated design that lacked credibility, slow performance that frustrated customers, and limited mobile accessibility that excluded a significant portion of their user base.",
+    "challenges_list": [
+      "Complex navigation structure",
+      "Outdated design lacking credibility",
+      "Slow platform performance",
+      "Limited mobile accessibility"
+    ],
+    "solution": "We completely rebuilt the platform with a modern, responsive design focused on user experience. Key improvements include streamlined dashboards, real-time data visualization, secure authentication flows, and optimized performance across all devices. The new architecture ensures scalability for future growth.",
+    "gallery": [
+      "/images/project/2.webp",
+      "/images/project/3.webp"
+    ],
+    "timeline_steps": [
+      {
+        "step": 1,
+        "title": "Discovery",
+        "description": "Analyzing user behavior and pain points through analytics and user interviews"
+      },
+      {
+        "step": 2,
+        "title": "Design",
+        "description": "Creating wireframes and prototypes for new dashboard and navigation systems"
+      },
+      {
+        "step": 3,
+        "title": "Development",
+        "description": "Building responsive front-end with modern frameworks and backend API integration"
+      },
+      {
+        "step": 4,
+        "title": "Launch",
+        "description": "Deploying with comprehensive testing and monitoring systems"
+      }
+    ],
+    "impact": "The new platform significantly improved user engagement and satisfaction. Page load times decreased by 60%, and user session duration increased by 45%. The improved design and functionality have strengthened client trust and led to higher conversion rates.",
+    "metrics": [
+      {
+        "value": "-60%",
+        "label": "Load Time"
+      },
+      {
+        "value": "+45%",
+        "label": "Session Duration"
+      },
+      {
+        "value": "+35%",
+        "label": "Conversion Rate"
+      }
+    ],
+    "testimonial": "The new platform has transformed how our clients interact with us. It's faster, more intuitive, and has significantly improved our operational efficiency. Our clients love the new dashboard.",
+    "client_name": "Michael Chen",
+    "client_role": "CTO",
+    "client_avatar": "/images/avatars/5.png"
+  },
+  {
+    "id": 3,
+    "slug": "orion-fitness",
+    "title": "Orion Fitness",
+    "category": "Mobile App",
+    "description": "Designed a motivating mobile experience with clearer progress tracking, smoother usability, and stronger daily engagement.",
+    "image": "/images/project/3.webp",
+    "live_link": "#",
+    "services": "Brand Identity + Mobile App UI",
+    "industry": "Health & Wellness",
+    "timeline": "10 Weeks",
+    "video_embed": "",
+    "problem": "Orion Fitness's mobile app had poor user retention and engagement. Users found the interface confusing and couldn't easily track their fitness progress.",
+    "challenge": "The app faced challenges with cluttered interface that overwhelmed users, unclear progress visualization that demotivated users, limited personalization options that reduced engagement, and poor onboarding that caused high drop-off rates.",
+    "challenges_list": [
+      "Cluttered interface design",
+      "Unclear progress visualization",
+      "Limited personalization options",
+      "Poor user onboarding"
+    ],
+    "solution": "We redesigned the entire mobile app experience with a focus on simplicity and motivation. Key features include intuitive progress tracking, personalized workout recommendations, gamification elements for engagement, and a streamlined onboarding process that gets users active quickly.",
+    "gallery": [
+      "/images/project/3.webp",
+      "/images/project/4.webp"
+    ],
+    "timeline_steps": [
+      {
+        "step": 1,
+        "title": "Discovery",
+        "description": "Conducting user research and competitive analysis in the fitness app space"
+      },
+      {
+        "step": 2,
+        "title": "Design",
+        "description": "Creating user flows, wireframes, and high-fidelity mobile UI designs"
+      },
+      {
+        "step": 3,
+        "title": "Development",
+        "description": "Implementing React Native components and integrating fitness tracking APIs"
+      },
+      {
+        "step": 4,
+        "title": "Launch",
+        "description": "App store submission with ASO optimization and user onboarding campaigns"
+      }
+    ],
+    "impact": "The redesigned app saw dramatic improvements in user engagement. Daily active users increased by 65%, and average session length grew by 40%. The gamification features proved especially popular, with users completing 3x more workouts per week on average.",
+    "metrics": [
+      {
+        "value": "+65%",
+        "label": "Daily Active Users"
+      },
+      {
+        "value": "+40%",
+        "label": "Session Length"
+      },
+      {
+        "value": "+200%",
+        "label": "Workouts/Week"
+      }
+    ],
+    "testimonial": "The new app is a game-changer for our users. They're more engaged, more motivated, and seeing better results. The redesign has exceeded all our expectations.",
+    "client_name": "Sarah Johnson",
+    "client_role": "Product Manager",
+    "client_avatar": "/images/avatars/8.png"
+  },
+  {
+    "id": 4,
+    "slug": "pixelforge-studio",
+    "title": "PixelForge Studio",
+    "category": "UI/UX",
+    "description": "Built a motion-first portfolio showcasing animation work with improved performance, clarity, and creative expression.",
+    "image": "/images/project/4.webp",
+    "live_link": "#",
+    "services": "Brand Identity + Portfolio Website",
+    "industry": "Animation & Creative Production",
+    "timeline": "4 Weeks",
+    "video_embed": "",
+    "problem": "PixelForge Studio needed a portfolio that could effectively showcase their animation work while maintaining fast performance and creative presentation.",
+    "challenge": "The studio struggled with slow-loading animation files that hurt SEO, inconsistent visual presentation across devices, limited interactivity that didn't showcase their technical skills, and a portfolio that didn't effectively communicate their creative process.",
+    "challenges_list": [
+      "Slow-loading animation assets",
+      "Inconsistent cross-device presentation",
+      "Limited interactivity and engagement",
+      "Weak creative process communication"
+    ],
+    "solution": "We created a motion-first portfolio with optimized performance. The site features lazy-loaded animations, smooth page transitions, interactive elements that demonstrate technical capability, and a dedicated section for showcasing the creative process behind each project.",
+    "gallery": [
+      "/images/project/4.webp",
+      "/images/project/1.webp"
+    ],
+    "timeline_steps": [
+      {
+        "step": 1,
+        "title": "Discovery",
+        "description": "Understanding the studio's creative process and technical requirements"
+      },
+      {
+        "step": 2,
+        "title": "Design",
+        "description": "Creating motion design concepts and interactive portfolio layouts"
+      },
+      {
+        "step": 3,
+        "title": "Development",
+        "description": "Building optimized animation system and implementing performance optimizations"
+      },
+      {
+        "step": 4,
+        "title": "Launch",
+        "description": "Deploying with CDN for global performance and SEO optimization"
+      }
+    ],
+    "impact": "The new portfolio has significantly improved PixelForge's online presence. Page load times improved by 70%, and the site now ranks on the first page for relevant search terms. The studio has seen a 50% increase in inbound inquiries since launch.",
+    "metrics": [
+      {
+        "value": "-70%",
+        "label": "Load Time"
+      },
+      {
+        "value": "+50%",
+        "label": "Inbound Inquiries"
+      },
+      {
+        "value": "Page 1",
+        "label": "Google Ranking"
+      }
+    ],
+    "testimonial": "Our new portfolio perfectly captures our creative spirit while performing exceptionally well. Clients love the interactive elements, and we're getting more qualified leads than ever before.",
+    "client_name": "David Kim",
+    "client_role": "Creative Director",
+    "client_avatar": "/images/avatars/9.png"
+  }
+]

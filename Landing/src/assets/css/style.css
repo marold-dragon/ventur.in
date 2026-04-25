@@ -1,0 +1,36 @@
+/*
+Template Name: Venturin - Portfolio & Agency Tailwind CSS 4 Website Template
+Version: 1.0.0
+Author: Venturin
+Website: https://venturin.site
+File: Style CSS File
+*/
+
+/* TailwindCSS */
+@import "tailwindcss";
+
+
+/* Preline UI */
+@import "preline/variants.css";
+@source "preline/dist/*.js";
+
+
+
+/* Plugin CSS */
+@import "swiper/swiper-bundle.css";
+
+
+/* Tailwind Plugin */
+@plugin "@tailwindcss/forms";
+@plugin "@tailwindcss/typography";
+
+
+
+/* Iconify Icons */
+@plugin "@iconify/tailwind4" {
+    prefixes: tabler, lucide;
+}
+
+@import "./_config.css";
+@import "./_general.css";
+@import "./_swiper.css";

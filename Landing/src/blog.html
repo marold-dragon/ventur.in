@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{> title-meta title="Blog" }}
+
+    {{> head-css}}
+</head>
+
+<body>
+
+    {{> navbar }}
+
+    <section class="size-full lg:pt-45 lg:pb-20 md:py-15 py-12.5">
+        <div class="container">
+            <div class="mb-7.5 relative space-y-4 text-center">
+                <div class="inline-flex py-1.5 px-2.5 rounded items-center justify-center gap-2 inset-shadow">
+                    <i class="iconify custom-arrow-left size-2.5"></i>
+                    <div class="font-semibold text-xs/none uppercase tracking-widest">Blog</div>
+                    <i class="iconify custom-arrow-right size-2.5"></i>
+                </div>
+
+                <h2 class="text-[52px]">Our Blog</h2>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-5">
+
+                <!-- Featured Left Blog -->
+                <div class="md:col-span-2">
+                    <div class="relative bg-white h-full rounded-lg p-5 group overflow-hidden">
+                        <a href="blog-details.html" class="absolute inset-0 z-10"></a>
+
+                        <div class="h-full grid grid-cols-2 gap-7.5">
+                            <div class="flex flex-col justify-between">
+                                <div>
+                                    <div class="mb-3 text-xs uppercase tracking-wider font-semibold">
+                                        Design
+                                    </div>
+
+                                    <h2 class="mb-5 text-xl transition-all duration-300 group-hover:text-primary">
+                                        The future of scalable design systems in 2025
+                                    </h2>
+
+                                    <div class="text-sm text-default-500">
+                                        Jan 1, 2026
+                                    </div>
+                                </div>
+
+                                <div class="flex items-center gap-2.5">
+                                    <div class="size-10 rounded-full bg-default-200 p-1.5">
+                                        <img src="/images/avatars/8.png" class="rounded-full" alt="Sophia Reyes">
+                                    </div>
+
+                                    <div>
+                                        <div class="font-medium">
+                                            Sophia Reyes
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="h-75 w-full overflow-hidden rounded-lg relative">
+                                <img src="/images/blog/1.webp" alt="Blog Image" class="rounded-lg size-full object-cover transition-all duration-500 group-hover:scale-105">
+
+                                <!-- Featured Badge -->
+                                <div class="absolute top-4 left-4 bg-primary text-white text-xs px-3 py-1 rounded-full">
+                                    Featured
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Right Top Blog -->
+                <div class="relative bg-white rounded-lg p-6 lg:h-full h-50 flex flex-col justify-between group overflow-hidden">
+                    <a href="blog-details.html" class="absolute inset-0 z-10"></a>
+
+                    <div>
+                        <div class="text-xs uppercase tracking-[0.25em] text-default-500 mb-3">
+                            UI Systems
+                        </div>
+
+                        <h2 class="mb-5 text-xl transition-all duration-300 group-hover:text-primary">
+                            Building Adaptive UI for Modern Teams
+                        </h2>
+                    </div>
+
+                    <div class="text-default-500 text-sm">
+                        Jan 8, 2026
+                    </div>
+
+                    <div class="absolute bottom-6 right-6 w-24 h-16 rounded-md overflow-hidden">
+                        <img src="/images/blog/2.jpg" alt="Blog Image" class="size-full object-cover transition-all duration-500 group-hover:scale-105">
+                    </div>
+                </div>
+
+
+                <!-- Blog Item 1 -->
+                <div class="relative bg-white rounded-lg p-6 h-50 flex flex-col justify-between group overflow-hidden">
+                    <a href="blog-details.html" class="absolute inset-0 z-10"></a>
+
+                    <div>
+                        <div class="text-xs uppercase tracking-[0.25em] text-default-500 mb-3">
+                            Branding
+                        </div>
+
+                        <h2 class="mb-5 text-xl transition-all duration-300 group-hover:text-primary">
+                            How stories shape digital experiences
+                        </h2>
+                    </div>
+
+                    <div class="text-default-500 text-sm">
+                        Jan 1, 2026
+                    </div>
+
+                    <div class="absolute bottom-6 right-6 w-24 h-16 rounded-md overflow-hidden">
+                        <img src="/images/blog/3.webp" alt="Blog Image" class="size-full object-cover transition-all duration-500 group-hover:scale-105">
+                    </div>
+                </div>
+
+
+                <!-- Blog Item 2 -->
+                <div class="relative bg-white rounded-lg p-6 h-50 flex flex-col justify-between group overflow-hidden">
+                    <a href="blog-details.html" class="absolute inset-0 z-10"></a>
+
+                    <div>
+                        <div class="text-xs uppercase tracking-[0.25em] text-default-500 mb-3">
+                            Development
+                        </div>
+
+                        <h2 class="mb-5 text-xl transition-all duration-300 group-hover:text-primary">
+                            Creating Lightning-Fast Websites in Tailwind
+                        </h2>
+                    </div>
+
+                    <div class="text-default-500 text-sm">
+                        Jan 1, 2026
+                    </div>
+
+                    <div class="absolute bottom-6 right-6 w-24 h-16 rounded-md overflow-hidden">
+                        <img src="/images/blog/4.webp" alt="Blog Image" class="size-full object-cover transition-all duration-500 group-hover:scale-105">
+                    </div>
+                </div>
+
+
+                <!-- Blog Item 3 -->
+                <div class="relative bg-white rounded-lg p-6 h-50 flex flex-col justify-between group overflow-hidden">
+                    <a href="blog-details.html" class="absolute inset-0 z-10"></a>
+
+                    <div>
+                        <div class="text-xs uppercase tracking-[0.25em] text-default-500 mb-3">
+                            Development
+                        </div>
+
+                        <h2 class="mb-5 text-xl transition-all duration-300 group-hover:text-primary">
+                            Built for High-Performance in Tailwind
+                        </h2>
+                    </div>
+
+                    <div class="text-default-500 text-sm">
+                        Jan 1, 2026
+                    </div>
+
+                    <div class="absolute bottom-6 right-6 w-24 h-16 rounded-md overflow-hidden">
+                        <img src="/images/blog/5.webp" alt="Blog Image" class="size-full object-cover transition-all duration-500 group-hover:scale-105">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    {{> footer }}
+
+</body>
+
+</html>

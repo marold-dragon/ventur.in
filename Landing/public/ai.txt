@@ -1,0 +1,12 @@
+Venturin - UI/UX Agency & Digital Store
+
+Venturin is a modern UI/UX Agency & Digital Store based in Indonesia. We specialize in:
+- UI/UX Design: Creating intuitive and beautiful user interfaces
+- Web Development: Building fast, scalable, and responsive websites
+- Digital Assets: Providing high-quality templates, icons, and UI kits
+
+Our team of experienced designers and developers work with startups and established brands to create meaningful digital experiences.
+
+Contact: marold.dragon@gmail.com
+Website: https://venturin.site
+Digital Store: https://digitalstore-app.netlify.app/

@@ -1,0 +1,9 @@
+# Venturin - UI/UX Agency & Digital Store
+Venturin is a creative digital agency based in Indonesia, specializing in user-centered UI/UX design, high-performance web development, and premium digital assets. 
+
+## Core Services:
+- UI/UX Design: Wireframing, prototyping, and interactive design.
+- Web Development: Responsive, modern, and scalable web solutions.
+- Digital Store: Premium UI Kits, templates, and design resources available at https://digitalstore-app.netlify.app/
+
+Contact us to transform your digital identity.

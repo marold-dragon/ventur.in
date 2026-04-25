@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{> title-meta title="Contact Us" }}
+
+    {{> head-css}}
+</head>
+
+<body>
+
+    {{> navbar }}
+
+    <section class="relative size-full overflow-hidden lg:pt-65 lg:pb-40 md:pt-37.5 pt-32 pb-10">
+        <div class="container">
+
+            <div class="mb-20 space-y-4 text-center">
+                <div class="inline-flex py-1.5 px-2.5 rounded items-center justify-center gap-2 inset-shadow">
+                    <i class="iconify custom-arrow-left size-2.5"></i>
+                    <div class="font-semibold text-xs/none uppercase tracking-widest">Let's Connect</div>
+                    <i class="iconify custom-arrow-right size-2.5"></i>
+                </div>
+
+                <h2 class="text-[52px]">Contact us</h2>
+            </div>
+
+            <div class="rounded-2xl p-5 bg-default-200 flex inset-shadow border border-default-200">
+
+                <div class="bg-white rounded-lg">
+                    <div class="grid md:grid-cols-2 divide-x divide-default-300">
+                        <div class="p-5 h-full flex flex-col items-start gap-5 justify-between">
+
+                            <!-- Left Content -->
+                            <div>
+                                <h2 class="text-xl mb-8">Start a Conversation</h2>
+
+                                <div class="space-y-5">
+
+                                    <!-- Phone -->
+                                    <div class="flex items-start gap-2">
+                                        <div class="pt-1 text-xs/none uppercase tracking-widest">Call on:</div>
+                                        <a href="tel:+12345678901" class="font-medium hover:text-primary transition" aria-label="Call Venturin at +1 (234) 567-89-01">
+                                            +1 (234) 567-89-01
+                                        </a>
+                                    </div>
+
+                                    <!-- Email -->
+                                    <div class="flex items-start gap-2">
+                                        <div class="pt-1 text-xs/none uppercase tracking-widest">Email on:</div>
+                                        <a href="mailto:marold.dragon@gmail.com" class="font-medium hover:text-primary transition" aria-label="Email Venturin at marold.dragon@gmail.com">
+                                            marold.dragon@gmail.com
+                                        </a>
+                                    </div>
+
+                                    <!-- Address -->
+                                    <div class="flex items-start gap-2">
+                                        <div class="pt-1 text-xs/none uppercase tracking-widest">Address:</div>
+                                        <a href="https://www.google.com/maps" target="_blank" class="font-medium hover:text-primary transition" aria-label="View Venturin office address on Google Maps (opens in new tab)">
+                                            1238 Echo Ridge Blvd, Suite 400,<br>
+                                            San Francisco, CA 94103, United States
+                                        </a>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <!-- Divider -->
+                            <hr class="my-5 border-dashed border-default-200">
+
+                            <div>
+                                <p class="text-default-600 leading-relaxed mb-5">
+                                    Their attention to detail and commitment to quality set them apart.
+                                    The new dashboard improved both usability and client satisfaction.
+                                </p>
+
+                                <div class="flex items-center gap-4">
+                                    <div class="font-semibold text-default-950 text-xs uppercase">Ethan Lewis</div>
+                                    <div class="text-xs uppercase text-default-500">- Founder, UrbanPay</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="bg-white rounded-lg p-5">
+                            <form id="contact-form" class="space-y-5">
+                                <div>
+                                    <label for="name" class="mb-1 text-xs uppercase text-default-950 tracking-widest font-medium block">Name *</label>
+                                    <input type="text" id="name" name="name" required class="rounded-lg bg-transparent h-10 py-2.5 px-4 w-full flex items-center border border-default-200" placeholder="Dennis Barrett">
+                                </div>
+
+                                <div>
+                                    <label for="email" class="mb-1 text-xs uppercase text-default-950 tracking-widest font-medium block">Email *</label>
+                                    <input type="email" id="email" name="email" required class="rounded-lg bg-transparent h-10 py-2.5 px-4 w-full flex items-center border border-default-200" placeholder="dannis@company.com">
+                                </div>
+
+                                <div class="grid md:grid-cols-2 gap-5">
+                                    <div>
+                                        <label for="phone" class="mb-1 text-xs uppercase text-default-950 tracking-widest font-medium block">Phone * </label>
+                                        <input type="tel" id="phone" name="phone" required class="rounded-lg bg-transparent h-10 py-2.5 px-4 w-full flex items-center border border-default-200" placeholder="+44 7480 734898">
+                                    </div>
+
+                                    <div>
+                                        <label for="company" class="mb-1 text-xs uppercase text-default-950 tracking-widest font-medium block">Company</label>
+                                        <input type="text" id="company" name="company" class="rounded-lg bg-transparent h-10 py-2.5 px-4 w-full flex items-center border border-default-200" placeholder="Your Company">
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <label for="message" class="mb-1 text-xs uppercase text-default-950 tracking-widest font-medium block">Message</label>
+                                    <textarea id="message" name="message" required class="rounded-lg bg-transparent py-2.5 px-4 w-full h-auto flex items-center border border-default-200" rows="4" placeholder="Write what's on your mind"></textarea>
+                                </div>
+
+                                <div id="form-message" class="hidden"></div>
+
+                                <button type="submit" id="submit-btn" class="py-2.5 px-5.5 inline-flex items-center justify-center rounded-lg bg-primary shadow-primary-soft text-white font-medium transition-all duration-500 hover:bg-primary-hover" aria-label="Send message to Venturin">
+                                    Send a message
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="size-full lg:py-20 md:py-15 py-12.5">
+        <div class="container max-w-175!">
+            <div class="mb-7.5 relative space-y-4 text-center">
+                <div class="inline-flex py-1.5 px-2.5 rounded items-center justify-center gap-2 inset-shadow">
+                    <i class="iconify custom-arrow-left size-2.5"></i>
+                    <div class="font-semibold text-xs/none uppercase tracking-widest">Got questions</div>
+                    <i class="iconify custom-arrow-right size-2.5"></i>
+                </div>
+
+                <h2 class="text-[52px]">We've got answers</h2>
+            </div>
+
+            <div class="rounded-2xl p-5 bg-default-200 inset-shadow border border-default-200">
+
+                <div class="space-y-5">
+
+                    <!-- FAQ 1 -->
+                    <div class="hs-accordion bg-white p-5 rounded-lg active">
+                        <button class="hs-accordion-toggle text-xl text-default-950 w-full flex justify-between items-center gap-2.5 text-start" aria-label="Toggle FAQ 1: How long does a typical project take?" aria-expanded="true">
+                            <h3>1. How long does a typical project take?</h3>
+                            <i class="iconify tabler--circle-plus-filled size-6 transition-transform duration-500 hs-accordion-active:rotate-45"></i>
+                        </button>
+
+                        <div class="hs-accordion-content w-full overflow-hidden transition-[height] duration-300 text-start" style="display: block;">
+                            <p class="mt-5">
+                                Most projects take 2–4 weeks depending on scope, number of revisions, and communication speed.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 2 -->
+                    <div class="hs-accordion bg-white p-5 rounded-lg">
+                        <button class="hs-accordion-toggle text-xl text-default-950 w-full flex justify-between items-center gap-2.5 text-start" aria-label="Toggle FAQ 2: Do you work with startups or only large brands?" aria-expanded="false">
+                            <h3>2. Do you work with startups or only large brands?</h3>
+                            <i class="iconify tabler--circle-plus-filled size-6 transition-transform duration-500 hs-accordion-active:rotate-45"></i>
+                        </button>
+
+                        <div class="hs-accordion-content w-full hidden overflow-hidden transition-[height] duration-300 text-start">
+                            <p class="mt-5">
+                                We work with both — from early-stage startups to established global brands.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 3 -->
+                    <div class="hs-accordion bg-white p-5 rounded-lg">
+                        <button class="hs-accordion-toggle text-xl text-default-950 w-full flex justify-between items-center gap-2.5 text-start" aria-label="Toggle FAQ 3: What's included in your design packages?" aria-expanded="false">
+                            <h3>3. What's included in your design packages?</h3>
+                            <i class="iconify tabler--circle-plus-filled size-6 transition-transform duration-500 hs-accordion-active:rotate-45"></i>
+                        </button>
+
+                        <div class="hs-accordion-content w-full hidden overflow-hidden transition-[height] duration-300 text-start">
+                            <p class="mt-5">
+                                Each package includes strategy, wireframes, high-fidelity design, responsive layouts, and final assets ready for development.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 4 -->
+                    <div class="hs-accordion bg-white p-5 rounded-lg">
+                        <button class="hs-accordion-toggle text-xl text-default-950 w-full flex justify-between items-center gap-2.5 text-start" aria-label="Toggle FAQ 4: Do you provide development services too?" aria-expanded="false">
+                            <h3>4. Do you provide development services too?</h3>
+                            <i class="iconify tabler--circle-plus-filled size-6 transition-transform duration-500 hs-accordion-active:rotate-45"></i>
+                        </button>
+
+                        <div class="hs-accordion-content w-full hidden overflow-hidden transition-[height] duration-300 text-start">
+                            <p class="mt-5">
+                                Yes. We offer full Tailwind development so your design becomes a fast, polished, and fully responsive website.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 5 -->
+                    <div class="hs-accordion bg-white p-5 rounded-lg">
+                        <button class="hs-accordion-toggle text-xl text-default-950 w-full flex justify-between items-center gap-2.5 text-start" aria-label="Toggle FAQ 5: How do we start a project?" aria-expanded="false">
+                            <h3>5. How do we start a project?</h3>
+                            <i class="iconify tabler--circle-plus-filled size-6 transition-transform duration-500 hs-accordion-active:rotate-45"></i>
+                        </button>
+
+                        <div class="hs-accordion-content w-full hidden overflow-hidden transition-[height] duration-300 text-start">
+                            <p class="mt-5">
+                                Simply share your project details through the contact form. We’ll follow up with timelines, pricing, and next steps.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- FAQ 6 -->
+                    <div class="hs-accordion bg-white p-5 rounded-lg">
+                        <button class="hs-accordion-toggle text-xl text-default-950 w-full flex justify-between items-center gap-2.5 text-start" aria-label="Toggle FAQ 6: Can you help with ongoing updates after launch?" aria-expanded="false">
+                            <h3>6. Can you help with ongoing updates after launch?</h3>
+                            <i class="iconify tabler--circle-plus-filled size-6 transition-transform duration-500 hs-accordion-active:rotate-45"></i>
+                        </button>
+
+                        <div class="hs-accordion-content w-full hidden overflow-hidden transition-[height] duration-300 text-start">
+                            <p class="mt-5">
+                                Yes, we offer monthly support and on-demand updates to keep your website optimized, secure, and performing well.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {{> footer }}
+
+</body>
+
+</html>

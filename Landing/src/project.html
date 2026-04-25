@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{> title-meta title="Project" }}
+
+    {{> head-css}}
+</head>
+
+<body>
+
+    {{> navbar }}
+
+    <section class="size-full lg:pt-45 lg:pb-20 md:py-15 py-12.5">
+        <div class="container">
+            <div class="mb-7.5 relative space-y-4 text-center">
+                <div class="inline-flex py-1.5 px-2.5 rounded items-center justify-center gap-2 inset-shadow">
+                    <i class="iconify custom-arrow-left size-2.5"></i>
+                    <div class="font-semibold text-xs/none uppercase tracking-widest">Portfolio</div>
+                    <i class="iconify custom-arrow-right size-2.5"></i>
+                </div>
+
+                <h2 class="text-[52px]">Our Portfolio</h2>
+                <p class="max-w-130 mx-auto">Explore our recent projects across different categories</p>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="flex flex-wrap justify-center gap-3 mb-8">
+                <button class="filter-btn active py-2 px-6 rounded-full border border-primary bg-primary text-white font-medium transition-all" data-filter="all" aria-label="Filter portfolio: Show all projects">All</button>
+                <button class="filter-btn py-2 px-6 rounded-full border border-default-300 bg-white text-default-900 font-medium transition-all hover:border-primary hover:text-primary" data-filter="UI/UX" aria-label="Filter portfolio: Show UI/UX projects">UI/UX</button>
+                <button class="filter-btn py-2 px-6 rounded-full border border-default-300 bg-white text-default-900 font-medium transition-all hover:border-primary hover:text-primary" data-filter="Web Dev" aria-label="Filter portfolio: Show Web Development projects">Web Dev</button>
+                <button class="filter-btn py-2 px-6 rounded-full border border-default-300 bg-white text-default-900 font-medium transition-all hover:border-primary hover:text-primary" data-filter="Mobile App" aria-label="Filter portfolio: Show Mobile App projects">Mobile App</button>
+            </div>
+
+            <!-- Portfolio Grid -->
+            <div id="portfolio-full-grid" class="grid md:grid-cols-2 lg:grid-cols-3 gap-7.5 mb-12">
+                <!-- Projects will be loaded dynamically from JSON -->
+            </div>
+
+        </div>
+    </section>
+
+    {{> footer }}
+
+</body>
+
+</html>

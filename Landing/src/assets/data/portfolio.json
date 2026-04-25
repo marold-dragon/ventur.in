@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "slug": "orion-fitness",
+    "title": "Orion Fitness App",
+    "category": "UI/UX",
+    "description": "Mobile fitness tracking app with intuitive UI and personalized workout plans",
+    "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=600&h=400&fit=crop",
+    "industry": "Health & Wellness",
+    "scope": "Brand Identity + Mobile App UI",
+    "live_link": "#"
+  },
+  {
+    "id": 2,
+    "slug": "summit-finance",
+    "title": "Summit Finance Platform",
+    "category": "Web Dev",
+    "description": "Modern fintech dashboard with real-time analytics and secure transactions",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+    "industry": "Finance & Consulting",
+    "scope": "Brand Direction + Web Platform",
+    "live_link": "#"
+  },
+  {
+    "id": 3,
+    "slug": "harvest-organics",
+    "title": "Harvest Organics Brand",
+    "category": "UI/UX",
+    "description": "Sustainable food brand with nature-inspired packaging and digital presence",
+    "image": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=600&h=400&fit=crop",
+    "industry": "Food & Sustainable Goods",
+    "scope": "Packaging Design + Brand System",
+    "live_link": "#"
+  },
+  {
+    "id": 4,
+    "slug": "pixelforge-studio",
+    "title": "PixelForge Portfolio",
+    "category": "Web Dev",
+    "description": "Creative agency portfolio showcasing animation and motion design work",
+    "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=600&h=400&fit=crop",
+    "industry": "Animation & Creative Production",
+    "scope": "Brand Identity + Portfolio Website",
+    "live_link": "#"
+  },
+  {
+    "id": 5,
+    "slug": "ecotrack-mobile",
+    "title": "EcoTrack Mobile App",
+    "category": "Mobile App",
+    "description": "Sustainability tracking app for businesses to monitor environmental impact",
+    "image": "https://images.unsplash.com/photo-1558655146-d09347e92766?w=600&h=400&fit=crop",
+    "industry": "Sustainability",
+    "scope": "Mobile App UI + UX Research",
+    "live_link": "#"
+  },
+  {
+    "id": 6,
+    "slug": "cloudsync-dashboard",
+    "title": "CloudSync Dashboard",
+    "category": "Web Dev",
+    "description": "Enterprise cloud management platform with advanced collaboration features",
+    "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=600&h=400&fit=crop",
+    "industry": "Technology",
+    "scope": "Web Application + Dashboard Design",
+    "live_link": "#"
+  }
+]

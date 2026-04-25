@@ -1,0 +1,36 @@
+{
+    "name": "venturin",
+    "version": "1.0.0",
+    "description": "Venturin - Portfolio & Agency Tailwind CSS 4 Website Template",
+    "main": "index.js",
+    "type": "module",
+    "private": true,
+    "author": "Venturin",
+    "website": "https://venturin.site",
+    "scripts": {
+        "dev": "vite --host",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "devDependencies": {
+        "@tailwindcss/vite": "^4.2.1",
+        "glob": "^13.0.3",
+        "path": "^0.12.7",
+        "postcss": "^8.5.6",
+        "vite": "^7.3.1",
+        "vite-plugin-handlebars": "^2.0.0"
+    },
+    "dependencies": {
+        "@iconify/json": "^2.2.442",
+        "@iconify/tailwind4": "^1.2.1",
+        "@tailwindcss/forms": "^0.5.11",
+        "@tailwindcss/typography": "^0.5.19",
+        "aos": "^2.3.4",
+        "gumshoejs": "^5.1.2",
+        "lightgallery": "^2.9.0",
+        "preline": "4.0.1",
+        "smoothscroll-for-websites": "^1.5.1",
+        "swiper": "^12.1.1",
+        "tailwindcss": "^4.2.1"
+    }
+}

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {{> title-meta title="Case Study" }}
+
+    {{> head-css}}
+</head>
+
+<body>
+
+    {{> navbar }}
+
+    <section class="size-full lg:pt-45 lg:pb-20 md:py-15 py-12.5">
+        <div class="container space-y-12.5">
+            <!-- Project Header -->
+            <div class="relative space-y-4 text-center" data-aos="fade-up">
+                <div class="inline-flex py-1.5 px-2.5 rounded items-center justify-center gap-2 inset-shadow">
+                    <i class="iconify custom-arrow-left size-2.5"></i>
+                    <div class="font-semibold text-xs/none uppercase tracking-widest">Case Study</div>
+                    <i class="iconify custom-arrow-right size-2.5"></i>
+                </div>
+                <h1 class="text-[52px]" id="case-study-title">Project Name</h1>
+                <p class="max-w-137.5 mx-auto" id="case-study-description">Project description goes here.</p>
+            </div>
+
+            <!-- Hero Image -->
+            <div class="rounded-2xl p-5 bg-default-200 inset-shadow border border-default-200" data-aos="fade-up">
+                <img src="/images/project/project-details-1.webp" alt="Project Hero" class="size-full object-cover rounded-lg" id="case-study-hero">
+            </div>
+
+            <!-- Project Info -->
+            <div class="rounded-2xl p-5 bg-default-200 inset-shadow border border-default-200" data-aos="fade-up">
+                <div class="relative bg-white rounded-lg p-5">
+                    <div class="grid grid-cols-4 items-start gap-7.5 text-center">
+                        <div class="space-y-1.5">
+                            <div>Services:</div>
+                            <div class="text-default-950" id="case-study-services">Service Name</div>
+                        </div>
+                        <div class="space-y-1.5">
+                            <div>Industry:</div>
+                            <div class="text-default-950" id="case-study-industry">Industry Name</div>
+                        </div>
+                        <div class="space-y-1.5">
+                            <div>Timeline</div>
+                            <div class="text-default-950" id="case-study-timeline">X Weeks</div>
+                        </div>
+                        <div class="text-end">
+                            <a href="#" class="py-2.5 px-5.5 inline-flex items-center justify-center rounded-lg bg-primary shadow-primary-soft text-white font-medium transition-all duration-500 hover:bg-primary-hover" id="case-study-live-link" aria-label="View live site">
+                                View live site
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video Embed Section -->
+            <div class="max-w-160 mx-auto" data-aos="fade-up" id="video-section">
+                <div class="rounded-2xl p-5 bg-default-200 inset-shadow border border-default-200">
+                    <div class="relative bg-white rounded-lg p-5">
+                        <h2 class="text-[22px] mb-5">Project Walkthrough</h2>
+                        <div class="aspect-video bg-default-100 rounded-lg flex items-center justify-center" id="video-container">
+                            <div class="text-center">
+                                <i class="iconify tabler--play-circle size-16 text-default-400 mb-2"></i>
+                                <p class="text-default-500">Video coming soon</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- The Problem -->
+            <div class="max-w-160 mx-auto" data-aos="fade-up">
+                <div class="prose prose-headings:font-medium">
+                    <h2>The Problem</h2>
+                    <p id="case-study-problem">Problem description goes here.</p>
+                </div>
+            </div>
+
+            <!-- The Challenge -->
+            <div class="max-w-160 mx-auto" data-aos="fade-up">
+                <div class="rounded-2xl p-5 bg-default-200 inset-shadow border border-default-200">
+                    <div class="bg-white rounded-lg p-7.5">
+                        <h2 class="text-[22px] mb-4">The Challenge</h2>
+                        <p id="case-study-challenge">Challenge description goes here.</p>
+                        <ul role="list" class="mt-4 space-y-2" id="case-study-challenges-list">
+                            <li>Challenge point 1</li>
+                            <li>Challenge point 2</li>
+                            <li>Challenge point 3</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- The Solution -->
+            <div class="max-w-160 mx-auto" data-aos="fade-up">
+                <div class="rounded-2xl p-5 bg-default-200 inset-shadow border border-default-200">
+                    <div class="bg-white rounded-lg p-7.5">
+                        <h2 class="text-[22px] mb-4">The Solution</h2>
+                        <p id="case-study-solution">Solution description goes here.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gallery -->
+            <div class="max-w-160 mx-auto" data-aos="fade-up">
+                <div class="rounded-2xl p-5 bg-default-200 inset-shadow border border-default-200">
+                    <div class="grid grid-cols-2 gap-5" data-toggle="gallery" id="case-study-gallery">
+                        <a href="images/project/project-details-2.webp">
+                            <img src="/images/project/project-details-2.webp" alt="Gallery 1" class="rounded-lg">
+                        </a>
+                        <a href="images/project/project-details-3.webp">
+                            <img src="/images/project/project-details-3.webp" alt="Gallery 2" class="rounded-lg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timeline / Process -->
+            <div class="max-w-160 mx-auto" data-aos="fade-up">
+                <div class="rounded-2xl p-5 bg-default-200 inset-shadow border border-default-200">
+                    <div class="bg-white rounded-lg p-7.5">
+                        <h2 class="text-[22px] mb-5">Our Process</h2>
+                        <div class="space-y-6" id="case-study-timeline">
+                            <div class="flex gap-4">
+                                <div class="flex flex-col items-center">
+                                    <div class="size-8 rounded-full bg-primary text-white flex items-center justify-center font-bold">1</div>
+                                    <div class="w-0.5 h-full bg-default-200 mt-2"></div>
+                                </div>
+                                <div class="pb-6">
+                                    <h3 class="text-lg font-medium">Discovery</h3>
+                                    <p class="text-default-600">Understanding the problem and user needs</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="flex flex-col items-center">
+                                    <div class="size-8 rounded-full bg-primary text-white flex items-center justify-center font-bold">2</div>
+                                    <div class="w-0.5 h-full bg-default-200 mt-2"></div>
+                                </div>
+                                <div class="pb-6">
+                                    <h3 class="text-lg font-medium">Design</h3>
+                                    <p class="text-default-600">Creating wireframes and high-fidelity designs</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="flex flex-col items-center">
+                                    <div class="size-8 rounded-full bg-primary text-white flex items-center justify-center font-bold">3</div>
+                                    <div class="w-0.5 h-full bg-default-200 mt-2"></div>
+                                </div>
+                                <div class="pb-6">
+                                    <h3 class="text-lg font-medium">Development</h3>
+                                    <p class="text-default-600">Building and implementing the solution</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="flex flex-col items-center">
+                                    <div class="size-8 rounded-full bg-primary text-white flex items-center justify-center font-bold">4</div>
+                                </div>
+                                <div>
+                                    <h3 class="text-lg font-medium">Launch</h3>
+                                    <p class="text-default-600">Deploying and monitoring the results</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Impact / Results -->
+            <div class="max-w-160 mx-auto" data-aos="fade-up">
+                <div class="rounded-2xl p-5 bg-default-200 inset-shadow border border-default-200">
+                    <div class="bg-white rounded-lg p-7.5">
+                        <h2 class="text-[22px] mb-4">The Impact</h2>
+                        <p id="case-study-impact">Impact description goes here.</p>
+                        <div class="grid grid-cols-3 gap-5 mt-6" id="case-study-metrics">
+                            <div class="text-center p-4 bg-default-50 rounded-lg">
+                                <div class="text-3xl font-bold text-primary">+X%</div>
+                                <div class="text-sm text-default-600">Metric 1</div>
+                            </div>
+                            <div class="text-center p-4 bg-default-50 rounded-lg">
+                                <div class="text-3xl font-bold text-primary">+Y%</div>
+                                <div class="text-sm text-default-600">Metric 2</div>
+                            </div>
+                            <div class="text-center p-4 bg-default-50 rounded-lg">
+                                <div class="text-3xl font-bold text-primary">+Z%</div>
+                                <div class="text-sm text-default-600">Metric 3</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Client Testimonial -->
+            <div class="max-w-160 mx-auto" data-aos="fade-up">
+                <div class="rounded-2xl p-5 bg-default-200 inset-shadow border border-default-200">
+                    <div class="bg-white rounded-lg p-7.5 size-full inline-flex flex-col items-start justify-between gap-7.5">
+                        <h2 class="text-[22px]" id="case-study-testimonial">Client testimonial goes here.</h2>
+                        <div class="flex items-center w-full gap-2.5">
+                            <div class="inset-shadow rounded-full size-12 flex items-center justify-center">
+                                <img src="/images/avatars/6.png" alt="Client Avatar" class="size-10 rounded-full" id="case-study-client-avatar">
+                            </div>
+                            <div class="flex items-center gap-2.5">
+                                <div class="text-default-950" id="case-study-client-name">Client Name</div>
+                                <div>-</div>
+                                <div id="case-study-client-role">Role</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Back to Portfolio CTA -->
+            <div class="text-center pt-10" data-aos="fade-up">
+                <a href="project.html" class="py-2.5 px-5.5 inline-flex items-center justify-center rounded-lg bg-primary shadow-primary-soft text-white font-medium transition-all duration-500 hover:bg-primary-hover" aria-label="Back to portfolio">
+                    <i class="iconify custom-arrow-left size-2.5 mr-2"></i>
+                    Back to Portfolio
+                </a>
+            </div>
+        </div>
+    </section>
+
+    {{> footer }}
+
+    <script src="/assets/js/case-study.js"></script>
+
+</body>
+
+</html>
