@@ -1,0 +1,17 @@
+# Venturin Digital Product Agency
+
+## Expertise
+- Next.js Development
+- Tailwind CSS Styling
+- Quality Control Analysis
+
+## Founder
+- Martua Sinaga
+- Full-Stack Developer & UI/UX Designer
+
+## Core Services
+- Full-Stack Web Development
+- UI/UX Design
+- Digital Strategy
+
+This file provides AI agents with a brief overview of Venturin's capabilities and services.

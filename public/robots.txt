@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://venturin.site/sitemap.xml
