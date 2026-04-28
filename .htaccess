@@ -1,0 +1,10 @@
+# Enable rewriting
+RewriteEngine On
+
+# Serve src/index.html as the default
+DirectoryIndex src/index.html
+
+# Optional: redirect all requests to src/index.html (for single-page apps)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^.*$ /src/index.html [L]

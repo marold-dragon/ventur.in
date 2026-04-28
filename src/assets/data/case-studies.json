@@ -1,270 +1,203 @@
 [
   {
     "id": 1,
-    "slug": "harvest-organics",
-    "title": "Harvest Organics",
+    "slug": "iot-security-dashboard",
+    "title": "IoT Security Dashboard (Cemara Asri)",
     "category": "UI/UX",
-    "description": "Developed a nature-inspired brand system and packaging that strengthens shelf presence, authenticity, and consumer trust.",
-    "image": "/images/project/project-details-1.webp",
-    "live_link": "#",
-    "services": "Packaging Design + Brand System",
-    "industry": "Food & Sustainable Goods",
-    "timeline": "6 Weeks",
+    "description": "Designed a complex IoT-based security information system interface that presents real-time data visualization with responsive cross-device functionality.",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+    "live_link": "case-study-template.html?slug=iot-security-dashboard",
+    "services": "UI/UX Design & Real-time Data Visualization",
+    "industry": "Security & IoT Technology",
+    "timeline": "12 Weeks",
     "video_embed": "",
-    "problem": "Harvest Organics wanted packaging and a brand system that communicated freshness and sustainability, but their visuals felt generic and failed to stand out on shelves or digital channels.",
-    "challenge": "The brand struggled with weak differentiation in a crowded market, inconsistent product labeling across their product line, limited storytelling around their sustainable sourcing practices, and low shelf impact that failed to attract new customers.",
+    "problem": "Cemara Asri needed a sophisticated security dashboard to monitor multiple IoT devices across their residential complex. The existing system was fragmented, difficult to navigate, and failed to provide real-time insights for security personnel.",
+    "challenge": "The project faced significant challenges including complex data visualization requirements for multiple device types, need for real-time updates across thousands of sensors, cross-device responsive functionality for security teams on mobile, and integration with legacy security infrastructure.",
     "challenges_list": [
-      "Weak brand differentiation",
-      "Inconsistent product labeling",
-      "Limited storytelling around sourcing",
-      "Low shelf impact"
+      "Complex multi-device data visualization",
+      "Real-time processing of thousands of sensors",
+      "Cross-platform responsive requirements",
+      "Legacy system integration constraints"
     ],
-    "solution": "We built a nature-inspired identity using warm tones, organic patterns, and clean typography. Packaging layouts were standardized, and storytelling elements were added to highlight quality and sustainability. The new design system includes a flexible color palette, custom iconography, and clear visual hierarchy that works across all touchpoints.",
+    "solution": "We designed a comprehensive dashboard with modular widget architecture allowing customizable views. The interface features real-time data streaming, interactive charts and graphs, alert management system, and responsive design that works seamlessly from desktop to mobile devices for security personnel on patrol.",
     "gallery": [
-      "/images/project/project-details-2.webp",
-      "/images/project/project-details-3.webp"
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&h=400&fit=crop"
     ],
     "timeline_steps": [
       {
         "step": 1,
         "title": "Discovery",
-        "description": "Understanding the problem and user needs through stakeholder interviews and market research"
+        "description": "Analyzing existing security workflows and stakeholder requirements across the residential complex"
       },
       {
         "step": 2,
         "title": "Design",
-        "description": "Creating wireframes, mood boards, and high-fidelity designs for packaging and brand assets"
+        "description": "Creating wireframes for dashboard layout and data visualization components with focus on clarity"
       },
       {
         "step": 3,
         "title": "Development",
-        "description": "Building brand guidelines, design system, and preparing production-ready assets"
+        "description": "Building responsive frontend with real-time WebSocket integration and interactive D3.js charts"
       },
       {
         "step": 4,
         "title": "Launch",
-        "description": "Deploying new packaging to production and monitoring market response"
+        "description": "Deploying with comprehensive security testing and training for security personnel"
       }
     ],
-    "impact": "The refreshed brand gained stronger recognition both online and in retail environments, driving higher customer trust and improved sales performance. The cohesive brand system now communicates the company's commitment to sustainability while maintaining visual appeal.",
+    "impact": "The new dashboard transformed security operations at Cemara Asri. Response times to incidents improved by 40%, and the security team can now monitor the entire complex from any device. The system processes data from over 2,000 IoT devices in real-time.",
     "metrics": [
       {
-        "value": "+45%",
-        "label": "Product Visibility"
+        "value": "-40%",
+        "label": "Response Time"
       },
       {
-        "value": "+32%",
-        "label": "Customer Recall"
+        "value": "2000+",
+        "label": "Devices Monitored"
       },
       {
-        "value": "+28%",
-        "label": "Sales Lift"
+        "value": "99.9%",
+        "label": "Uptime"
       }
     ],
-    "testimonial": "The new brand tells our story instantly. Customers connect with us more, and the packaging stands out everywhere. It's exactly what we needed to differentiate ourselves in the market.",
-    "client_name": "Emily Ross",
-    "client_role": "HR Manager",
+    "testimonial": "The dashboard has revolutionized how we manage security. We can now respond to incidents in seconds rather than minutes, and our team loves the mobile accessibility when they're on patrol.",
+    "client_name": "Martua Sinaga",
+    "client_role": "Founder & Lead Product Engineer",
     "client_avatar": "/images/avatars/6.png"
   },
   {
     "id": 2,
-    "slug": "summit-finance",
-    "title": "Summit Finance",
+    "slug": "dhamma-ebook-catalog",
+    "title": "Dhamma E-Book Catalog",
     "category": "Web Dev",
-    "description": "Modernized the platform with streamlined dashboards, stronger trust signals, and simplified financial insight delivery.",
-    "image": "/images/project/2.webp",
-    "live_link": "#",
-    "services": "Brand Direction + Web Platform",
-    "industry": "Finance & Consulting",
-    "timeline": "8 Weeks",
+    "description": "Developed the UI/UX for a dynamic digital book catalog application equipped with a custom Content Management System for independent data management.",
+    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&h=400&fit=crop",
+    "live_link": "case-study-template.html?slug=dhamma-ebook-catalog",
+    "services": "Web Application UI/UX & Custom CMS",
+    "industry": "Digital Library & Education",
+    "timeline": "10 Weeks",
     "video_embed": "",
-    "problem": "Summit Finance's existing web platform was outdated, difficult to navigate, and failed to convey the trust and professionalism expected in the financial services industry.",
-    "challenge": "The platform suffered from complex navigation that confused users, outdated design that lacked credibility, slow performance that frustrated customers, and limited mobile accessibility that excluded a significant portion of their user base.",
+    "problem": "The Dhamma community needed a digital platform to organize and share their extensive collection of e-books and spiritual literature. Existing solutions were either too generic or too expensive for their non-profit requirements.",
+    "challenge": "The project required designing an intuitive catalog system for diverse user demographics, building a custom CMS for content administrators without technical expertise, implementing robust search across thousands of documents, and ensuring accessibility for users with varying technical abilities.",
     "challenges_list": [
-      "Complex navigation structure",
-      "Outdated design lacking credibility",
-      "Slow platform performance",
-      "Limited mobile accessibility"
+      "Designing for diverse age demographics",
+      "Non-technical content management needs",
+      "Advanced search across document types",
+      "Accessibility compliance requirements"
     ],
-    "solution": "We completely rebuilt the platform with a modern, responsive design focused on user experience. Key improvements include streamlined dashboards, real-time data visualization, secure authentication flows, and optimized performance across all devices. The new architecture ensures scalability for future growth.",
+    "solution": "We created a clean, accessible web application with an intuitive book catalog interface. The custom CMS allows administrators to upload books, organize categories, and manage metadata without coding knowledge. Features include advanced search, bookmarking, reading progress tracking, and responsive design for reading on any device.",
     "gallery": [
-      "/images/project/2.webp",
-      "/images/project/3.webp"
+      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&h=400&fit=crop"
     ],
     "timeline_steps": [
       {
         "step": 1,
         "title": "Discovery",
-        "description": "Analyzing user behavior and pain points through analytics and user interviews"
+        "description": "Researching user needs across different age groups and understanding content management workflows"
       },
       {
         "step": 2,
         "title": "Design",
-        "description": "Creating wireframes and prototypes for new dashboard and navigation systems"
+        "description": "Creating accessible UI components and designing the custom CMS interface for content administrators"
       },
       {
         "step": 3,
         "title": "Development",
-        "description": "Building responsive front-end with modern frameworks and backend API integration"
+        "description": "Building React frontend with Node.js backend and implementing full-text search with Elasticsearch"
       },
       {
         "step": 4,
         "title": "Launch",
-        "description": "Deploying with comprehensive testing and monitoring systems"
+        "description": "Soft launch with community beta testing and CMS training for content administrators"
       }
     ],
-    "impact": "The new platform significantly improved user engagement and satisfaction. Page load times decreased by 60%, and user session duration increased by 45%. The improved design and functionality have strengthened client trust and led to higher conversion rates.",
+    "impact": "The platform now serves over 5,000 monthly active users with a catalog of 3,000+ books. The custom CMS has reduced content upload time by 70%, and user engagement has increased by 85% compared to the previous solution.",
     "metrics": [
       {
-        "value": "-60%",
-        "label": "Load Time"
+        "value": "5,000+",
+        "label": "Monthly Users"
       },
       {
-        "value": "+45%",
-        "label": "Session Duration"
+        "value": "-70%",
+        "label": "Upload Time"
       },
       {
-        "value": "+35%",
-        "label": "Conversion Rate"
+        "value": "+85%",
+        "label": "Engagement"
       }
     ],
-    "testimonial": "The new platform has transformed how our clients interact with us. It's faster, more intuitive, and has significantly improved our operational efficiency. Our clients love the new dashboard.",
-    "client_name": "Michael Chen",
-    "client_role": "CTO",
-    "client_avatar": "/images/avatars/5.png"
+    "testimonial": "The platform has become an invaluable resource for our community. The custom CMS makes it easy for our volunteers to manage content, and users love the clean, simple interface for accessing our library.",
+    "client_name": "Martua Sinaga",
+    "client_role": "Founder & Lead Product Engineer",
+    "client_avatar": "/images/avatars/6.png"
   },
   {
     "id": 3,
-    "slug": "orion-fitness",
-    "title": "Orion Fitness",
+    "slug": "sukses-media-app",
+    "title": "Sukses Media App Ecosystem",
     "category": "Mobile App",
-    "description": "Designed a motivating mobile experience with clearer progress tracking, smoother usability, and stronger daily engagement.",
-    "image": "/images/project/3.webp",
-    "live_link": "#",
-    "services": "Brand Identity + Mobile App UI",
-    "industry": "Health & Wellness",
-    "timeline": "10 Weeks",
+    "description": "Led the interface redesign for a portfolio and casting management app, successfully increasing user engagement by 25% through rigorous usability testing.",
+    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&h=400&fit=crop",
+    "live_link": "case-study-template.html?slug=sukses-media-app",
+    "services": "Mobile App UI/UX & User Testing",
+    "industry": "Media & Entertainment",
+    "timeline": "16 Weeks",
     "video_embed": "",
-    "problem": "Orion Fitness's mobile app had poor user retention and engagement. Users found the interface confusing and couldn't easily track their fitness progress.",
-    "challenge": "The app faced challenges with cluttered interface that overwhelmed users, unclear progress visualization that demotivated users, limited personalization options that reduced engagement, and poor onboarding that caused high drop-off rates.",
+    "problem": "Sukses Media's casting management app was struggling with user retention and engagement. Talent found it difficult to create compelling portfolios, while casting directors faced challenges discovering the right candidates efficiently.",
+    "challenge": "The app suffered from a cluttered portfolio creation process, poor discoverability for casting directors, limited multimedia support for talent showcases, and an unintuitive matching algorithm that failed to surface relevant candidates.",
     "challenges_list": [
-      "Cluttered interface design",
-      "Unclear progress visualization",
-      "Limited personalization options",
-      "Poor user onboarding"
+      "Complex portfolio creation workflow",
+      "Poor talent discoverability",
+      "Limited multimedia showcase options",
+      "Ineffective matching algorithm"
     ],
-    "solution": "We redesigned the entire mobile app experience with a focus on simplicity and motivation. Key features include intuitive progress tracking, personalized workout recommendations, gamification elements for engagement, and a streamlined onboarding process that gets users active quickly.",
+    "solution": "We conducted extensive user testing to identify pain points, then redesigned the entire user experience. The new interface features a streamlined portfolio builder with drag-and-drop media uploads, advanced filtering and search for casting directors, video and audio integration for talent showcases, and an improved AI-powered matching system.",
     "gallery": [
-      "/images/project/3.webp",
-      "/images/project/4.webp"
+      "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1520333789090-1afc82db536a?w=600&h=400&fit=crop"
     ],
     "timeline_steps": [
       {
         "step": 1,
         "title": "Discovery",
-        "description": "Conducting user research and competitive analysis in the fitness app space"
+        "description": "Conducting user interviews with talent and casting directors to identify key pain points in the current workflow"
       },
       {
         "step": 2,
         "title": "Design",
-        "description": "Creating user flows, wireframes, and high-fidelity mobile UI designs"
+        "description": "Creating iterative prototypes and conducting usability testing with both talent users and casting director personas"
       },
       {
         "step": 3,
         "title": "Development",
-        "description": "Implementing React Native components and integrating fitness tracking APIs"
+        "description": "Implementing redesigned UI with React Native, integrating multimedia features and improving matching algorithm"
       },
       {
         "step": 4,
         "title": "Launch",
-        "description": "App store submission with ASO optimization and user onboarding campaigns"
+        "description": "Phased rollout with A/B testing to validate engagement improvements and gather continuous feedback"
       }
     ],
-    "impact": "The redesigned app saw dramatic improvements in user engagement. Daily active users increased by 65%, and average session length grew by 40%. The gamification features proved especially popular, with users completing 3x more workouts per week on average.",
+    "impact": "The redesign resulted in a 25% increase in user engagement, 40% more completed portfolios, and a 35% improvement in successful casting matches. User retention improved by 60% within the first three months post-launch.",
     "metrics": [
       {
-        "value": "+65%",
-        "label": "Daily Active Users"
+        "value": "+25%",
+        "label": "User Engagement"
       },
       {
         "value": "+40%",
-        "label": "Session Length"
+        "label": "Completed Portfolios"
       },
       {
-        "value": "+200%",
-        "label": "Workouts/Week"
+        "value": "+60%",
+        "label": "User Retention"
       }
     ],
-    "testimonial": "The new app is a game-changer for our users. They're more engaged, more motivated, and seeing better results. The redesign has exceeded all our expectations.",
-    "client_name": "Sarah Johnson",
-    "client_role": "Product Manager",
-    "client_avatar": "/images/avatars/8.png"
-  },
-  {
-    "id": 4,
-    "slug": "pixelforge-studio",
-    "title": "PixelForge Studio",
-    "category": "UI/UX",
-    "description": "Built a motion-first portfolio showcasing animation work with improved performance, clarity, and creative expression.",
-    "image": "/images/project/4.webp",
-    "live_link": "#",
-    "services": "Brand Identity + Portfolio Website",
-    "industry": "Animation & Creative Production",
-    "timeline": "4 Weeks",
-    "video_embed": "",
-    "problem": "PixelForge Studio needed a portfolio that could effectively showcase their animation work while maintaining fast performance and creative presentation.",
-    "challenge": "The studio struggled with slow-loading animation files that hurt SEO, inconsistent visual presentation across devices, limited interactivity that didn't showcase their technical skills, and a portfolio that didn't effectively communicate their creative process.",
-    "challenges_list": [
-      "Slow-loading animation assets",
-      "Inconsistent cross-device presentation",
-      "Limited interactivity and engagement",
-      "Weak creative process communication"
-    ],
-    "solution": "We created a motion-first portfolio with optimized performance. The site features lazy-loaded animations, smooth page transitions, interactive elements that demonstrate technical capability, and a dedicated section for showcasing the creative process behind each project.",
-    "gallery": [
-      "/images/project/4.webp",
-      "/images/project/1.webp"
-    ],
-    "timeline_steps": [
-      {
-        "step": 1,
-        "title": "Discovery",
-        "description": "Understanding the studio's creative process and technical requirements"
-      },
-      {
-        "step": 2,
-        "title": "Design",
-        "description": "Creating motion design concepts and interactive portfolio layouts"
-      },
-      {
-        "step": 3,
-        "title": "Development",
-        "description": "Building optimized animation system and implementing performance optimizations"
-      },
-      {
-        "step": 4,
-        "title": "Launch",
-        "description": "Deploying with CDN for global performance and SEO optimization"
-      }
-    ],
-    "impact": "The new portfolio has significantly improved PixelForge's online presence. Page load times improved by 70%, and the site now ranks on the first page for relevant search terms. The studio has seen a 50% increase in inbound inquiries since launch.",
-    "metrics": [
-      {
-        "value": "-70%",
-        "label": "Load Time"
-      },
-      {
-        "value": "+50%",
-        "label": "Inbound Inquiries"
-      },
-      {
-        "value": "Page 1",
-        "label": "Google Ranking"
-      }
-    ],
-    "testimonial": "Our new portfolio perfectly captures our creative spirit while performing exceptionally well. Clients love the interactive elements, and we're getting more qualified leads than ever before.",
-    "client_name": "David Kim",
-    "client_role": "Creative Director",
-    "client_avatar": "/images/avatars/9.png"
+    "testimonial": "The redesign has completely transformed our platform. The usability testing insights were invaluable, and the new interface makes it so much easier for talent to showcase themselves and for casting directors to find the perfect match.",
+    "client_name": "Martua Sinaga",
+    "client_role": "Founder & Lead Product Engineer",
+    "client_avatar": "/images/avatars/6.png"
   }
 ]
