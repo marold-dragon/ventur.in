@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import { Caveat } from "next/font/google";
 import Script from "next/script";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -17,20 +19,24 @@ const caveat = Caveat({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://venturin.vercel.app"),
   title: "Venturin | Digital Product Agency",
   description: "Expert Full-Stack Development and UI/UX Design by Martua Sinaga",
   openGraph: {
     title: "Venturin | Digital Product Agency",
     description: "Expert Full-Stack Development and UI/UX Design by Martua Sinaga",
-    url: "https://venturin.site",
+    url: "https://venturin.vercel.app",
+    siteName: "Venturin",
     type: "website",
-    images: [{ url: "https://venturin.site/images/logo-dark.jpg", width: 800, height: 600, alt: "Venturin Logo" }],
+    locale: "en_US",
+    images: [{ url: "/images/logo-dark.jpg", width: 1200, height: 630, alt: "Venturin - Digital Product Agency" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Venturin | Digital Product Agency",
     description: "Expert Full-Stack Development and UI/UX Design by Martua Sinaga",
-    images: ["https://venturin.site/images/logo-dark.jpg"],
+    site: "@venturin",
+    images: ["/images/logo-dark.jpg"],
   },
 };
 
@@ -42,6 +48,8 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
         {children}
         <Footer />
         <Script src="https://code.iconify.design/3/3.1.1/iconify.min.js" strategy="afterInteractive" />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

@@ -8,6 +8,42 @@ export default function Home() {
   return (
     <main>
 
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "Person",
+                "@id": "https://venturin.vercel.app/#founder",
+                "name": "Martua Sinaga",
+                "jobTitle": "Founder & Lead Product Engineer",
+                "worksFor": { "@type": "Organization", "name": "Venturin" },
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Medan",
+                  "addressCountry": "ID"
+                }
+              },
+              {
+                "@type": "ProfessionalService",
+                "@id": "https://venturin.vercel.app/#business",
+                "name": "Venturin",
+                "description": "Expert Full-Stack Development and UI/UX Design",
+                "url": "https://venturin.vercel.app",
+                "founder": { "@id": "https://venturin.vercel.app/#founder" },
+                "address": {
+                  "@type": "PostalAddress",
+                  "addressLocality": "Medan",
+                  "addressCountry": "ID"
+                }
+              }
+            ]
+          })
+        }}
+      />
+
       {/* HERO */}
       <section className="relative size-full overflow-hidden lg:pt-65 lg:pb-40 md:pt-37.5 pt-32 pb-10">
         <div className="container max-w-160!">
