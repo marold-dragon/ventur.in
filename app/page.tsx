@@ -19,10 +19,12 @@ export default function Home() {
                 "@id": "https://venturin.vercel.app/#founder",
                 "name": "Martua Sinaga",
                 "jobTitle": "Founder & Lead Product Engineer",
+                "image": "https://venturin.vercel.app/images/martua-profile.webp",
                 "worksFor": { "@type": "Organization", "name": "Venturin" },
                 "address": {
                   "@type": "PostalAddress",
                   "addressLocality": "Medan",
+                  "postalCode": "20111",
                   "addressCountry": "ID"
                 }
               },
@@ -32,10 +34,14 @@ export default function Home() {
                 "name": "Venturin",
                 "description": "Expert Full-Stack Development and UI/UX Design",
                 "url": "https://venturin.vercel.app",
+                "image": "https://venturin.vercel.app/images/logo-dark.jpg",
+                "telephone": "+62-853-6221-9945",
+                "priceRange": "$$",
                 "founder": { "@id": "https://venturin.vercel.app/#founder" },
                 "address": {
                   "@type": "PostalAddress",
                   "addressLocality": "Medan",
+                  "postalCode": "20111",
                   "addressCountry": "ID"
                 }
               }
