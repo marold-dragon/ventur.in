@@ -1,0 +1,203 @@
+[
+  {
+    "id": 1,
+    "slug": "iot-security-dashboard",
+    "title": "IoT Security Dashboard (Cemara Asri)",
+    "category": "UI/UX",
+    "description": "Designed a complex IoT-based security information system interface that presents real-time data visualization with responsive cross-device functionality.",
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+    "live_link": "case-study-template.html?slug=iot-security-dashboard",
+    "services": "UI/UX Design & Real-time Data Visualization",
+    "industry": "Security & IoT Technology",
+    "timeline": "12 Weeks",
+    "video_embed": "",
+    "problem": "Cemara Asri needed a sophisticated security dashboard to monitor multiple IoT devices across their residential complex. The existing system was fragmented, difficult to navigate, and failed to provide real-time insights for security personnel.",
+    "challenge": "The project faced significant challenges including complex data visualization requirements for multiple device types, need for real-time updates across thousands of sensors, cross-device responsive functionality for security teams on mobile, and integration with legacy security infrastructure.",
+    "challenges_list": [
+      "Complex multi-device data visualization",
+      "Real-time processing of thousands of sensors",
+      "Cross-platform responsive requirements",
+      "Legacy system integration constraints"
+    ],
+    "solution": "We designed a comprehensive dashboard with modular widget architecture allowing customizable views. The interface features real-time data streaming, interactive charts and graphs, alert management system, and responsive design that works seamlessly from desktop to mobile devices for security personnel on patrol.",
+    "gallery": [
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1563986768609-322da13575f3?w=600&h=400&fit=crop"
+    ],
+    "timeline_steps": [
+      {
+        "step": 1,
+        "title": "Discovery",
+        "description": "Analyzing existing security workflows and stakeholder requirements across the residential complex"
+      },
+      {
+        "step": 2,
+        "title": "Design",
+        "description": "Creating wireframes for dashboard layout and data visualization components with focus on clarity"
+      },
+      {
+        "step": 3,
+        "title": "Development",
+        "description": "Building responsive frontend with real-time WebSocket integration and interactive D3.js charts"
+      },
+      {
+        "step": 4,
+        "title": "Launch",
+        "description": "Deploying with comprehensive security testing and training for security personnel"
+      }
+    ],
+    "impact": "The new dashboard transformed security operations at Cemara Asri. Response times to incidents improved by 40%, and the security team can now monitor the entire complex from any device. The system processes data from over 2,000 IoT devices in real-time.",
+    "metrics": [
+      {
+        "value": "-40%",
+        "label": "Response Time"
+      },
+      {
+        "value": "2000+",
+        "label": "Devices Monitored"
+      },
+      {
+        "value": "99.9%",
+        "label": "Uptime"
+      }
+    ],
+    "testimonial": "The dashboard has revolutionized how we manage security. We can now respond to incidents in seconds rather than minutes, and our team loves the mobile accessibility when they're on patrol.",
+    "client_name": "Martua Sinaga",
+    "client_role": "Founder & Lead Product Engineer",
+    "client_avatar": "/images/avatars/6.png"
+  },
+  {
+    "id": 2,
+    "slug": "dhamma-ebook-catalog",
+    "title": "Dhamma E-Book Catalog",
+    "category": "Web Dev",
+    "description": "Developed the UI/UX for a dynamic digital book catalog application equipped with a custom Content Management System for independent data management.",
+    "image": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&h=400&fit=crop",
+    "live_link": "case-study-template.html?slug=dhamma-ebook-catalog",
+    "services": "Web Application UI/UX & Custom CMS",
+    "industry": "Digital Library & Education",
+    "timeline": "10 Weeks",
+    "video_embed": "",
+    "problem": "The Dhamma community needed a digital platform to organize and share their extensive collection of e-books and spiritual literature. Existing solutions were either too generic or too expensive for their non-profit requirements.",
+    "challenge": "The project required designing an intuitive catalog system for diverse user demographics, building a custom CMS for content administrators without technical expertise, implementing robust search across thousands of documents, and ensuring accessibility for users with varying technical abilities.",
+    "challenges_list": [
+      "Designing for diverse age demographics",
+      "Non-technical content management needs",
+      "Advanced search across document types",
+      "Accessibility compliance requirements"
+    ],
+    "solution": "We created a clean, accessible web application with an intuitive book catalog interface. The custom CMS allows administrators to upload books, organize categories, and manage metadata without coding knowledge. Features include advanced search, bookmarking, reading progress tracking, and responsive design for reading on any device.",
+    "gallery": [
+      "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&h=400&fit=crop"
+    ],
+    "timeline_steps": [
+      {
+        "step": 1,
+        "title": "Discovery",
+        "description": "Researching user needs across different age groups and understanding content management workflows"
+      },
+      {
+        "step": 2,
+        "title": "Design",
+        "description": "Creating accessible UI components and designing the custom CMS interface for content administrators"
+      },
+      {
+        "step": 3,
+        "title": "Development",
+        "description": "Building React frontend with Node.js backend and implementing full-text search with Elasticsearch"
+      },
+      {
+        "step": 4,
+        "title": "Launch",
+        "description": "Soft launch with community beta testing and CMS training for content administrators"
+      }
+    ],
+    "impact": "The platform now serves over 5,000 monthly active users with a catalog of 3,000+ books. The custom CMS has reduced content upload time by 70%, and user engagement has increased by 85% compared to the previous solution.",
+    "metrics": [
+      {
+        "value": "5,000+",
+        "label": "Monthly Users"
+      },
+      {
+        "value": "-70%",
+        "label": "Upload Time"
+      },
+      {
+        "value": "+85%",
+        "label": "Engagement"
+      }
+    ],
+    "testimonial": "The platform has become an invaluable resource for our community. The custom CMS makes it easy for our volunteers to manage content, and users love the clean, simple interface for accessing our library.",
+    "client_name": "Martua Sinaga",
+    "client_role": "Founder & Lead Product Engineer",
+    "client_avatar": "/images/avatars/6.png"
+  },
+  {
+    "id": 3,
+    "slug": "sukses-media-app",
+    "title": "Sukses Media App Ecosystem",
+    "category": "Mobile App",
+    "description": "Led the interface redesign for a portfolio and casting management app, successfully increasing user engagement by 25% through rigorous usability testing.",
+    "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&h=400&fit=crop",
+    "live_link": "case-study-template.html?slug=sukses-media-app",
+    "services": "Mobile App UI/UX & User Testing",
+    "industry": "Media & Entertainment",
+    "timeline": "16 Weeks",
+    "video_embed": "",
+    "problem": "Sukses Media's casting management app was struggling with user retention and engagement. Talent found it difficult to create compelling portfolios, while casting directors faced challenges discovering the right candidates efficiently.",
+    "challenge": "The app suffered from a cluttered portfolio creation process, poor discoverability for casting directors, limited multimedia support for talent showcases, and an unintuitive matching algorithm that failed to surface relevant candidates.",
+    "challenges_list": [
+      "Complex portfolio creation workflow",
+      "Poor talent discoverability",
+      "Limited multimedia showcase options",
+      "Ineffective matching algorithm"
+    ],
+    "solution": "We conducted extensive user testing to identify pain points, then redesigned the entire user experience. The new interface features a streamlined portfolio builder with drag-and-drop media uploads, advanced filtering and search for casting directors, video and audio integration for talent showcases, and an improved AI-powered matching system.",
+    "gallery": [
+      "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&h=400&fit=crop",
+      "https://images.unsplash.com/photo-1520333789090-1afc82db536a?w=600&h=400&fit=crop"
+    ],
+    "timeline_steps": [
+      {
+        "step": 1,
+        "title": "Discovery",
+        "description": "Conducting user interviews with talent and casting directors to identify key pain points in the current workflow"
+      },
+      {
+        "step": 2,
+        "title": "Design",
+        "description": "Creating iterative prototypes and conducting usability testing with both talent users and casting director personas"
+      },
+      {
+        "step": 3,
+        "title": "Development",
+        "description": "Implementing redesigned UI with React Native, integrating multimedia features and improving matching algorithm"
+      },
+      {
+        "step": 4,
+        "title": "Launch",
+        "description": "Phased rollout with A/B testing to validate engagement improvements and gather continuous feedback"
+      }
+    ],
+    "impact": "The redesign resulted in a 25% increase in user engagement, 40% more completed portfolios, and a 35% improvement in successful casting matches. User retention improved by 60% within the first three months post-launch.",
+    "metrics": [
+      {
+        "value": "+25%",
+        "label": "User Engagement"
+      },
+      {
+        "value": "+40%",
+        "label": "Completed Portfolios"
+      },
+      {
+        "value": "+60%",
+        "label": "User Retention"
+      }
+    ],
+    "testimonial": "The redesign has completely transformed our platform. The usability testing insights were invaluable, and the new interface makes it so much easier for talent to showcase themselves and for casting directors to find the perfect match.",
+    "client_name": "Martua Sinaga",
+    "client_role": "Founder & Lead Product Engineer",
+    "client_avatar": "/images/avatars/6.png"
+  }
+]
