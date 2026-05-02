@@ -20,23 +20,21 @@ const caveat = Caveat({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://venturin.vercel.app"),
-  title: "Venturin | Digital Product Agency",
-  description: "Expert Full-Stack Development and UI/UX Design by Martua Sinaga",
+  title: "Venturin | Premium UI/UX Design & Web Development Agency",
+  description: "A digital product agency by Martua Sinaga. We craft premium UI/UX designs, high-performance websites, and digital assets that help modern brands grow online.",
   openGraph: {
-    title: "Venturin | Digital Product Agency",
-    description: "Expert Full-Stack Development and UI/UX Design by Martua Sinaga",
+    title: "Venturin | Premium UI/UX Design & Web Development Agency",
+    description: "A digital product agency by Martua Sinaga. We craft premium UI/UX designs, high-performance websites, and digital assets that help modern brands grow online.",
     url: "https://venturin.vercel.app",
     siteName: "Venturin",
     type: "website",
     locale: "en_US",
-    images: [{ url: "/images/logo-dark.jpg", width: 1200, height: 630, alt: "Venturin - Digital Product Agency" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Venturin | Digital Product Agency",
-    description: "Expert Full-Stack Development and UI/UX Design by Martua Sinaga",
+    title: "Venturin | Premium UI/UX Design & Web Development Agency",
+    description: "A digital product agency by Martua Sinaga. We craft premium UI/UX designs, high-performance websites, and digital assets that help modern brands grow online.",
     site: "@venturin",
-    images: ["/images/logo-dark.jpg"],
   },
 };
 
