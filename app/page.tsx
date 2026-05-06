@@ -3,6 +3,27 @@ import Image from "next/image";
 import TestimonialsSwiper from "@/components/TestimonialsSwiper";
 import FaqAccordion from "@/components/FaqAccordion";
 import { ArrowLeft, ArrowRight } from "@/components/icons";
+import { prisma } from "@/lib/prisma";
+import type { Metadata } from "next";
+
+export async function generateMetadata(): Promise<Metadata> {
+  try {
+    const seo = await prisma.seoMetadata.findUnique({
+      where: { page: "home" },
+    });
+    return {
+      title: seo?.metaTitle || "Venturin | Digital Branding & Development",
+      description: seo?.metaDescription || "Tingkatkan presensi digital Anda bersama Venturin.",
+      keywords: seo?.keywords || "web developer, full stack developer, digital branding",
+    };
+  } catch (error) {
+    console.error("Gagal mengambil data SEO:", error);
+    return {
+      title: "Venturin | Digital Branding & Development",
+      description: "Tingkatkan presensi digital Anda bersama Venturin.",
+    };
+  }
+}
 
 export default function Home() {
   return (
