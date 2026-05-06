@@ -25,7 +25,20 @@ export async function generateMetadata(): Promise<Metadata> {
   }
 }
 
-export default function Home() {
+export default async function Home() {
+  const features = await prisma.feature.findMany({
+    where: { isActive: true },
+    orderBy: { updatedAt: 'asc' },
+  })
+
+  const services = features.length > 0
+    ? features.map(f => ({ title: f.title, icon: f.icon || 'tabler:bolt', desc: f.description, tags: [] as string[] }))
+    : [
+        {title:"UI/UX Design",icon:"tabler:palette",desc:"User-centered design, wireframing, and interactive prototyping to create intuitive and beautiful user interfaces.",tags:["Wireframing","Prototyping","User Research"]},
+        {title:"Web Development",icon:"tabler:code",desc:"High-performance, responsive, and scalable web solutions using modern technologies.",tags:["Front-end","Back-end","CMS"]},
+        {title:"Digital Assets",icon:"tabler:shopping-bag",desc:"Premium UI Kits, templates, and design resources to accelerate your design workflow.",tags:["Templates","Icons","UI Kits"]},
+      ]
+
   return (
     <main>
 
@@ -332,11 +345,7 @@ export default function Home() {
               </div>
             </div>
             <div className="space-y-5 rounded-2xl p-5 bg-default-200 inset-shadow border border-default-200">
-              {[
-                {title:"UI/UX Design",icon:"tabler:palette",desc:"User-centered design, wireframing, and interactive prototyping to create intuitive and beautiful user interfaces.",tags:["Wireframing","Prototyping","User Research"]},
-                {title:"Web Development",icon:"tabler:code",desc:"High-performance, responsive, and scalable web solutions using modern technologies.",tags:["Front-end","Back-end","CMS"]},
-                {title:"Digital Assets",icon:"tabler:shopping-bag",desc:"Premium UI Kits, templates, and design resources to accelerate your design workflow.",tags:["Templates","Icons","UI Kits"]},
-              ].map((svc,i) => (
+              {services.map((svc,i) => (
                 <div key={i} className="bg-white rounded-lg p-5">
                   <div className="mb-15">
                     <div className="flex justify-between">
