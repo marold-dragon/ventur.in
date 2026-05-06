@@ -1,12 +1,9 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
 import { Caveat } from "next/font/google";
-import Script from "next/script";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 
 const geist = Geist({
   subsets: ["latin"],
@@ -42,10 +39,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en" className={`${geist.variable} ${caveat.variable}`}>
       <body>
-        <Navbar />
         {children}
-        <Footer />
-        <Script src="https://code.iconify.design/3/3.1.1/iconify.min.js" strategy="afterInteractive" />
         <Analytics />
         <SpeedInsights />
       </body>

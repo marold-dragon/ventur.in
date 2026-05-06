@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { prisma } from '@/lib/prisma'
 import { deleteArticle, togglePublished } from '@/app/actions/articles'
+import DeleteButton from '@/components/admin/DeleteButton'
 
 export default async function ArticlesPage() {
   const articles = await prisma.article.findMany({
@@ -74,18 +75,11 @@ export default async function ArticlesPage() {
                       >
                         Edit
                       </Link>
-                      <form action={deleteArticle}>
-                        <input type="hidden" name="id" value={article.id} />
-                        <button
-                          type="submit"
-                          className="rounded-lg border border-red-500/20 px-3 py-1 text-xs text-red-400 transition-colors hover:bg-red-500/10"
-                          onClick={(e) => {
-                            if (!confirm('Hapus artikel ini?')) e.preventDefault()
-                          }}
-                        >
-                          Hapus
-                        </button>
-                      </form>
+                      <DeleteButton
+                        action={deleteArticle}
+                        id={article.id}
+                        confirmMessage="Hapus artikel ini permanen?"
+                      />
                     </div>
                   </td>
                 </tr>
