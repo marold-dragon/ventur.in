@@ -19,6 +19,7 @@ export async function createArticle(formData: FormData) {
   }
 
   revalidatePath('/dashboard/articles')
+  revalidatePath('/blog')
   redirect('/dashboard/articles')
 }
 
@@ -39,6 +40,8 @@ export async function updateArticle(formData: FormData) {
   }
 
   revalidatePath('/dashboard/articles')
+  revalidatePath('/blog')
+  revalidatePath(`/blog/${formData.get('slug') as string}`)
   redirect('/dashboard/articles')
 }
 
@@ -46,14 +49,17 @@ export async function deleteArticle(formData: FormData) {
   const id = formData.get('id') as string
   await prisma.article.delete({ where: { id } })
   revalidatePath('/dashboard/articles')
+  revalidatePath('/blog')
 }
 
 export async function togglePublished(formData: FormData) {
   const id = formData.get('id') as string
   const current = formData.get('published') === 'true'
-  await prisma.article.update({
+  const article = await prisma.article.update({
     where: { id },
     data: { published: !current },
   })
   revalidatePath('/dashboard/articles')
+  revalidatePath('/blog')
+  revalidatePath(`/blog/${article.slug}`)
 }

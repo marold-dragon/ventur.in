@@ -55,6 +55,7 @@ export default function Navbar() {
             <Link href="/" onClick={() => setIsOpen(false)} className="flex items-center py-4 text-2xl/none font-medium text-default-900 transition-all hover:text-primary">Home</Link>
             <Link href="/about" onClick={() => setIsOpen(false)} className="flex items-center py-4 text-2xl/none font-medium text-default-900 transition-all hover:text-primary">About Us</Link>
             <Link href="/projects" onClick={() => setIsOpen(false)} className="flex items-center py-4 text-2xl/none font-medium text-default-900 transition-all hover:text-primary">Projects</Link>
+            <Link href="/blog" onClick={() => setIsOpen(false)} className="flex items-center py-4 text-2xl/none font-medium text-default-900 transition-all hover:text-primary">Blog</Link>
             <Link href="/contact" onClick={() => setIsOpen(false)} className="flex items-center py-4 text-2xl/none font-medium text-default-900 transition-all hover:text-primary">Contact Us</Link>
 
             <div className="flex items-center gap-3 py-4">

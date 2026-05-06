@@ -1,8 +1,17 @@
+import { prisma } from '@/lib/prisma'
+
 export const metadata = {
   title: 'Dashboard | Venturin CMS',
 }
 
-export default function DashboardOverview() {
+export default async function DashboardOverview() {
+  const [articleCount, publishedCount, featureCount, seoCount] = await Promise.all([
+    prisma.article.count(),
+    prisma.article.count({ where: { published: true } }),
+    prisma.feature.count({ where: { isActive: true } }),
+    prisma.seoMetadata.count(),
+  ])
+
   return (
     <div className="space-y-6">
       <div>
@@ -13,11 +22,13 @@ export default function DashboardOverview() {
       <div className="grid grid-cols-1 gap-4 md:grid-cols-3">
         <div className="rounded-xl border border-white/10 bg-white/5 p-6">
           <h3 className="text-sm text-gray-400">Total Artikel</h3>
-          <p className="mt-2 text-3xl font-semibold">0</p>
+          <p className="mt-2 text-3xl font-semibold">{articleCount}</p>
+          <p className="mt-1 text-xs text-gray-500">{publishedCount} dipublikasi</p>
         </div>
         <div className="rounded-xl border border-white/10 bg-white/5 p-6">
-          <h3 className="text-sm text-gray-400">Halaman Termanajemen</h3>
-          <p className="mt-2 text-3xl font-semibold">0</p>
+          <h3 className="text-sm text-gray-400">Konten Aktif</h3>
+          <p className="mt-2 text-3xl font-semibold">{featureCount + seoCount}</p>
+          <p className="mt-1 text-xs text-gray-500">{featureCount} fitur · {seoCount} halaman SEO</p>
         </div>
         <div className="rounded-xl border border-white/10 bg-white/5 p-6">
           <h3 className="text-sm text-gray-400">Status Server</h3>
